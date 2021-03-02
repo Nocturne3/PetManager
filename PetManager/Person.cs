@@ -15,7 +15,10 @@ namespace PetManager {
 
         public BindingList<Pet> Pets { get; private set; }
 
-
+        /// <summary>
+        /// Get Demo Data
+        /// </summary>
+        /// <returns></returns>
         public static BindingList<Person> GetDemoData() {
             var ret = new BindingList<Person>();
             var person = new Person() {Lastname = "Müller", Firstname = "Max"};
